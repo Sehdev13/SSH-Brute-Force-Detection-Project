@@ -6,7 +6,7 @@ The purpose of this project was to simulate an SSH brute force attack within a c
 
 ## Project Overview
 
-This project involved launching a brute force attack from an attacker machine (192.168.16.17) against a web host using SSH on port 22. Multiple logs, dashboards, and monitoring systems were used to track the attack. The goal was to understand how brute force attacks appear in various system logs, how to manually investigate them, and how SIEM/log-management tools visualize the attack patterns.
+This project involved launching a brute force attack from an attacker machine (192.168.16.17) against a web host (192.168.16.4) using SSH on port 22. Multiple logs, dashboards, and monitoring systems were used to track the attack. The goal was to understand how brute force attacks appear in various system logs, how to manually investigate them, and how log-management tools visualize the attack patterns.
 
 ### Skills Learned
 
