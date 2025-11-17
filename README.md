@@ -18,13 +18,9 @@ This project involved launching a brute force attack from an attacker machine (1
 
 ## Tools Used
 
-- **Kali Linux** – attacker machine used to launch the brute-force attack  
 - **Hydra** – automated password-guessing tool used for SSH brute-force testing  
-- **WebHost (Ubuntu)** – target system hosting the SSH service  
 - **Logwatch** – log analysis tool summarizing SSH failures and activity  
 - **LogAnalyzer** – real-time log viewing for SSH authentication failures  
-- **/var/log/auth.log** – primary Linux authentication log used for investigation  
-- **tcpdump** – packet capture tool used to observe brute-force traffic on port 22  
 - **SNMP Traps** – monitored device events such as reboots, but not SSH failures  
 - **LibreNMS** – network monitoring tool displaying system events and SNMP traps  
 
